@@ -1,0 +1,178 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1c1e21;
+
+}
+main{
+    height: 70vh;
+    position: relative;
+    background-color: rgb(224, 244, 245);
+}
+.content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0px auto;
+    position: relative;
+}
+
+.facebook {
+    border: 1px solid black;
+    flex: 0 0 50%;
+    text-align: left;
+    border: none;
+}
+
+.facebook h1 {
+    font-size: 60px;
+    font-weight: 400;
+    padding: 0 30px;
+    line-height: 80px;
+    color: blue;
+}
+
+.facebook p {
+    font: 26px;
+    font-weight: 400;
+    padding: 0px 30px;
+    line-height: 20px;
+}
+
+.form {
+    flex: 0 0 40%;
+    text-align: center;
+    border: 1px solid black;
+    margin-top: 30px;
+    border: none;
+}
+
+.form-container {
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 5px 5px 6px -5px;
+    margin-bottom: 30px;
+    padding: 20px;
+    margin-left: 20px;
+    margin-right: 20px;;
+    max-width: 400px;
+}
+
+.form-container input{
+    font-size: 20px;
+        border-radius: 6px;
+        padding-left: 10px;
+        margin: 10PX 0;
+        width: 100%;
+}
+.form-container button {
+    width: 100%;
+    margin: 5px 0;
+    vertical-align: middle;
+    font-size: 16px;
+}
+
+.button {
+    font-size: 20px;
+    border-radius: 6px;
+    color: white;
+    background-color: blue;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+    padding: 0 16px;
+    line-height: 40px;
+}
+
+.button2 {
+    font-size: 17px;
+    line-height: 40px;
+    border-radius: 6px;
+    color: white;
+    background-color: rgb(36, 224, 36);
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.form-container a {
+    display: block;
+    font-size: 14px;
+    align-items: center;
+    margin: 30px 70px;
+    background-color: white;
+    padding: 10px 0 20px;
+    text-decoration: none;
+    border-bottom: 1px solid black;
+}
+
+.form-container a:hover {
+    text-decoration: underline;
+}
+
+footer{
+    height: 30vh;
+    background-color: #ffff;
+}
+.footer-container{
+    position: relative;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+footer ol{
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 10px 0px;
+    word-spacing: none;
+}
+footer:first-child{
+    border-bottom: 1px solid black;
+}
+footer:first-child li:last-child button{
+    background-color: aliceblue;
+    border: 1px solid white;
+    outline: none;
+    color: black;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 0 5px;
+}
+
+footer ol li {
+    padding-right: 15px;
+    font-size: 12px;
+}
+footer ol li a {
+    text-decoration: none;
+    color: black;
+}
+
+.underline-hover-effect {
+    display: flex;
+    position: relative;
+    padding: 20px;
+}
+
+.underline-hover-effect::before {
+    content: "";
+    display: flex;
+    left: 20px;
+    right: 20px;
+    bottom: 0px;
+    height: 1px;
+    background-color: blue;
+    position: absolute;
+}
+@media screen and (max-width:480px) {
+    
+
+        }
